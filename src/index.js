@@ -11,11 +11,11 @@ import { createFirestoreInstance } from 'redux-firestore';
 import firebase from "./firebase";
 import { firestoreReducer } from 'redux-firestore';
 
-const rootReducer = combineReducers({
-  formVisibleOnPage: formVisibleReducer,
-  masterTicketList: ticketListReducer,
-  firestore: firestoreReducer
-});
+// const rootReducer = combineReducers({
+//   formVisibleOnPage: formVisibleReducer,
+//   masterTicketList: ticketListReducer,
+//   firestore: firestoreReducer
+// });
 
 
 const store = createStore(rootReducer);
